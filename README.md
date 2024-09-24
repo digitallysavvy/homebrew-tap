@@ -6,14 +6,14 @@ This is a [Homebrew](https://brew.sh) tap for the TEN-Agent CLI.
 
 ```bash
 bash
-brew install digitallysavvy/tap/ten-agent-cli
+brew install digitallysavvy/tap/ten-agent
 ```
 
 Alternatively, you can tap the repository first and then install:
 
 ```bash
 brew tap digitallysavvy/tap
-brew install ten-agent-cli
+brew install ten-agent
 ```
 
 For more information, visit the [TEN-Agent CLI repository](https://github.com/digitallysavvy/ten-agent-cli).
