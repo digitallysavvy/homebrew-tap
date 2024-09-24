@@ -5,21 +5,21 @@
 class TenAgent < Formula
   desc "CLI tool for TEN-Agent"
   homepage "https://github.com/digitallysavvy/ten-agent-cli"
-  version "0.0.30"
+  version "0.0.31"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.30/ten-agent_Darwin_x86_64.tar.gz"
-      sha256 "afbb259e094b808ecb4bb28390f808120333014e0839fb32a38e519c154656a9"
+      url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.31/ten-agent_Darwin_x86_64.tar.gz"
+      sha256 "a5335bc5365aa53cf5b5f467d6b278b4d933b6f357f0bf1ad6d92638b1baa6e7"
 
       def install
         bin.install "ten-agent"
       end
     end
     on_arm do
-      url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.30/ten-agent_Darwin_arm64.tar.gz"
-      sha256 "a092574369861a5d91c6e98f4bf4b03b16472a4abf0bcbbcf198f62402742392"
+      url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.31/ten-agent_Darwin_arm64.tar.gz"
+      sha256 "76ba618451e3a7ed410b969eb082ea8c4dbda6582dc8e75cee78691cae6bfcae"
 
       def install
         bin.install "ten-agent"
@@ -30,8 +30,8 @@ class TenAgent < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.30/ten-agent_Linux_x86_64.tar.gz"
-        sha256 "b6e39e3da24644009828530708b2afcea013ba75ef1f1b671f12fcdd2bb79d6c"
+        url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.31/ten-agent_Linux_x86_64.tar.gz"
+        sha256 "18eacd4b4e871dc8aa82add76549403a61f7fe4260d307b69a960a7b0649274c"
 
         def install
           bin.install "ten-agent"
@@ -40,8 +40,8 @@ class TenAgent < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.30/ten-agent_Linux_arm64.tar.gz"
-        sha256 "023de8c699f240f5851e9996fb6dc719b4265a3ac7aa0fd634637c9a404d51ca"
+        url "https://github.com/digitallysavvy/ten-agent-cli/releases/download/v0.0.31/ten-agent_Linux_arm64.tar.gz"
+        sha256 "c55ecd727aa9b7c0241b746e1faf35de3c349a90e5d7ea9a3fa485dc514dcc5b"
 
         def install
           bin.install "ten-agent"
